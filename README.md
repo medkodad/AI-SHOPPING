@@ -32,15 +32,13 @@ Production-oriented full-stack starter for an AI-powered commerce platform.
    docker compose up -d postgres redis
    ```
 
-## What is included
+Fonctionnalités incluses
+- Pages client : page d’accueil, produits, catégories, détails des produits, panier, paiement, liste de souhaits, profil, commandes, suivi des commandes, assistant IA, paramètres et notifications.
+- Pages administrateur : tableau de bord, analyses, commandes, clients, produits, catégories, gestion des stocks, coupons de réduction, avis, journaux de l’IA, rapports et paramètres système.
+- Entités backend et relations : utilisateurs, rôles, produits, catégories, commandes, articles de commande, articles du panier, listes de souhaits, avis, coupons, journaux de l’IA, notifications et expéditions.
 
-- Customer pages: landing, products, categories, product details, cart, checkout, wishlist, profile, orders, order tracking, AI assistant, settings, notifications
-- Admin pages: dashboard, analytics, orders, customers, products, categories, inventory, coupons, reviews, AI logs, reports, system settings
-- Backend entities with relationships: users, roles, products, categories, orders, order items, cart items, wishlist items, reviews, coupons, AI logs, notifications, shipments
-
-## Next phases
-
-1. Polish design system and reusable UI primitives.
-2. Add auth, refresh tokens, RBAC, and protected routes.
-3. Connect React Query to the backend APIs.
-4. Add Celery, Redis, vector search, and LangGraph agents.
+Prochaines étapes
+1. Améliorer le système de design et les composants UI réutilisables.
+2. Ajouter l’authentification, les jetons de rafraîchissement (refresh tokens), le contrôle d’accès basé sur les rôles (RBAC) et les routes protégées.
+3. Connecter React Query aux API du backend.
+4. Intégrer Celery, Redis, la recherche vectorielle et les agents LangGraph.
